@@ -35,3 +35,7 @@ inheritance:
 3. Hierarchical inheritance: 1,2 and 4; parent-> child 1, child 2
 4. Hybrid inheritance: combined version of all the above 3
 5. Multiple iheritance: parent 1, parent 2 -> child; only allowed with the help of interfaces
+
+encapsulation:
+- keeping data and methods that operate on that data together inside a class, while restricting direct access to the data
+- dont allow outside code to directly change important data, give controlled access through methods

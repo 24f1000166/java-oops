@@ -85,35 +85,62 @@
 //     }
 // }
 
-/* INHERITANCE */
+// /* INHERITANCE */
 
-class Shape{/* 1 */
-    public void area() {
-        System.out.println("displays area")
-    }
-}
+// class Shape{/* 1 */
+//     public void area() {
+//         System.out.println("displays area")
+//     }
+// }
 
-class Triangle extends Shape{/* 2 */
-    public void area(int l, int h){
-        System.out.println(1/2*l*h);
-    }
-}
+// class Triangle extends Shape{/* 2 */
+//     public void area(int l, int h){
+//         System.out.println(1/2*l*h);
+//     }
+// }
 
-class EquilateralTriangle extends Triangle {/* 3 */
-    public void area(int s){
-        System.out.println(1/2*s*s);
-    }
-}
+// class EquilateralTriangle extends Triangle {/* 3 */
+//     public void area(int s){
+//         System.out.println(1/2*s*s);
+//     }
+// }
 
-class Circle extends Shape {/* 4 */
-    public void area(int r){
-        System.out.println((3.14)*r*r);
+// class Circle extends Shape {/* 4 */
+//     public void area(int r){
+//         System.out.println((3.14)*r*r);
+//     }
+// }
+
+// public class oops {
+//     public static void main(String args[]) {
+//         Triangle t1= new Triangle();
+
+//     }
+// }
+
+/* Encapsulation */
+class Student {
+    // int marks; /* if this is given, there will be no issuese to access marks
+    // another class oops */
+    private int marks; /* here, since it is a private modifier, we can access only inside
+    the class, we cant access inside another class oops, so how to access it? we provide method; for that we use getters and setters  */
+    public void setMarks(int marks) {
+        this.marks = marks;
     }
+    public int getMarks(){
+        return marks;
+    }
+
+
 }
 
 public class oops {
-    public static void main(String args[]) {
-        Triangle t1= new Triangle();
-
+    public static void main(String args[]){
+        Student s = new Student();
+      /*   s.marks =  95;
+        s.marks = -500;
+        s.marks = 1000000; */
+        s.setMarks(95);
+        System.out.println(s.getMarks());
     }
 }
