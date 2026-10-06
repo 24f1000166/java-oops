@@ -40,6 +40,11 @@ encapsulation:
 - keeping data and methods that operate on that data together inside a class, while restricting direct access to the data
 - dont allow outside code to directly change important data, give controlled access through methods
 
+abstraction:
+- hiding unnecessary details and showing only essential information
+1. Abstract class
+2. Interface
+
 
 
 

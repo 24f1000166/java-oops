@@ -178,3 +178,47 @@
 
 
 
+/* Abstraction */
+
+/* 1. Abstract class */
+// abstract class Animal {
+//     abstract void sound();/* this tells subclasses that "you must have a sound() method", but it doesnt care how you implement it */
+// }/* every animal must have a sound() method, but not specifying how it works */
+
+// class Dog extends Animal {
+//     void sound(){
+//         System.out.println("Bark");
+//     }
+// }
+
+// class Cat extends Animal {
+//     void sound(){
+//         System.out.println("Meow");
+//     }
+// }
+
+// public class oops{
+//     public static void main(String[] args){
+//         /* Animal a = new Animal(); this is not allowed, because Animal is abstract */
+//         Dog d = new Dog();
+//         d.sound();
+//         Cat c = new Cat();
+//         c.sound();
+//     }
+// }
+
+// /* 2. Interface */
+// interface Vehicle{
+//     void start();
+// }
+
+// class Car implements Vehicle {
+//     public void start(){
+//         System.out.println("Car starts");
+//     }
+// }
+// class Bike implements Vehicle{
+//     public void start(){
+//         System.out.println("Bike starts");
+//     }
+// }
