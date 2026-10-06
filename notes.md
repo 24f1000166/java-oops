@@ -39,3 +39,14 @@ inheritance:
 encapsulation:
 - keeping data and methods that operate on that data together inside a class, while restricting direct access to the data
 - dont allow outside code to directly change important data, give controlled access through methods
+
+
+
+
+
+
+getters: 
+- used to read data
+
+setters:
+- used to modify data

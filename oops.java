@@ -119,28 +119,62 @@
 // }
 
 /* Encapsulation */
-class Student {
-    // int marks; /* if this is given, there will be no issuese to access marks
-    // another class oops */
-    private int marks; /* here, since it is a private modifier, we can access only inside
-    the class, we cant access inside another class oops, so how to access it? we provide method; for that we use getters and setters  */
-    public void setMarks(int marks) {
-        this.marks = marks;
-    }
-    public int getMarks(){
-        return marks;
-    }
+// class Student {
+//     // int marks; /* if this is given, there will be no issuese to access marks
+//     // another class oops */
+//     private int marks; /* here, since it is a private modifier, we can access only inside
+//     the class, we cant access inside another class oops, so how to access it? we provide methods;
+//      for that we use getters and setters ; here only student can access marks */
+//     public void setMarks(int marks) {
+//         this.marks = marks; /* here left marks is the object's marks and rhs is the parameter passed to the method
+//         i.e: store the parameter value inside the object's marks */
+//     }
+//     public int getMarks(){
+//         return marks;
+//     }
+// }
+// public class oops {
+//     public static void main(String args[]){
+//         Student s = new Student();
+//       /*   s.marks =  95;
+//         s.marks = -500;
+//         s.marks = 1000000; */
+//         s.setMarks(95);
+//         System.out.println(s.getMarks());
+//     }
+// }
+
+// class Student {
+//     private String name;
+//     private int marks;
+
+//     public void setName(String name){
+//         this.name = name;
+//     }
+//     public String getName(){
+//         return name;
+//     }
+
+//     public void setMarks(int marks){
+//         if (marks >= 0 && marks <= 100){
+//             this.marks=marks;
+//         }
+//     }
+//     public int getMarks(){
+//         return marks;
+//     }
+// }
+
+// public class oops {
+//     public static void main(String[] args){
+//         Student s = new Student();
+//         s.setName("Kavi");
+//         s.setMarks(90);
+
+//         System.out.println(s.getName());
+//         System.out.println(s.getMarks());
+//     }
+// }
 
 
-}
 
-public class oops {
-    public static void main(String args[]){
-        Student s = new Student();
-      /*   s.marks =  95;
-        s.marks = -500;
-        s.marks = 1000000; */
-        s.setMarks(95);
-        System.out.println(s.getMarks());
-    }
-}
