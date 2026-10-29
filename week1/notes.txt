@@ -5,3 +5,10 @@
 PS C:\Users\kaviranjanii\OneDrive\Desktop\k\IITM\JAVA> javac week1\Start.java
 PS C:\Users\kaviranjanii\OneDrive\Desktop\k\IITM\JAVA> java week1.Start
 Hello world
+
+4. java catches error during compile time(compiler error) where we can rectify the errors, like it will show 
+the error after compiling before the runing of byte code, so we can correct it and compile correctly and run
+*so java avoids runtime error by rectifying compiler error
+
+5. each class will have its own data and method
+6. instances are created in heap memory
