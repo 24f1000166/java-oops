@@ -1,0 +1,7 @@
+1. file name should match the public class, and for one java file only one public class will be ther
+2. there can be many classes for a java file, but only one public class
+
+3. correct way to run in addition to click run at the top
+PS C:\Users\kaviranjanii\OneDrive\Desktop\k\IITM\JAVA> javac week1\Start.java
+PS C:\Users\kaviranjanii\OneDrive\Desktop\k\IITM\JAVA> java week1.Start
+Hello world
