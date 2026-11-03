@@ -1,0 +1,37 @@
+*class->HelloWorld
+*method-> code inside HelloWorld
+*method type-> static method
+*return type-> void: which means it returns nothing; just printing Hello World
+public class HelloWorld {
+    public static void main(String[] args){ --> main method's signature
+        System.out.println("Hello, world!");
+    }
+}
+
+
+->class files will form after javac depends on the number of classes inside the java files
+-> primitive datatypes: 5 types
+INTEGERS:
+-by defaults it is int; we have to use L to mention it as long
+1. int ==>4 bytes; 32 bits. here 1st bit goes for +/-, remaining 31 bits for the numbers, so the limit is 2^31-1=2147483647
+   the numbers greater than 2^31-1 cannot be stored in int datatype
+2. long ==>64 bits 
+    to distinguish between integer and long, use L at the end of the number for long format
+DECIMALS:
+-by default, it is double, to mention it as float, we have to use f
+-double is more precised than float
+3. float ==> 32 bits
+4. double ==> 64 bits
+
+5. char : have to use single quotes; if double quotes is used, then it is string
+6. Boolean: true/false
+
+first 6 are primitive types; string is a reference type variable
+7. String
+
+->storage:
+-primitive type will store in STACK memory
+-in reference type: the variable will be in the STACK memory where it carry a particular location where the object is present inside HEAP
+String myString="Hello";
+here myString is the variable
+Hello is the instance of the variable: object, which is store in HEAP and the location of this will be stored in STACK with the variable name
