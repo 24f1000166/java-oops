@@ -1,3 +1,6 @@
+
+1. Main.java
+
 *class->HelloWorld
 *method-> code inside HelloWorld
 *method type-> static method
@@ -8,6 +11,7 @@ public class HelloWorld {
     }
 }
 
+//datatypes
 
 ->class files will form after javac depends on the number of classes inside the java files
 -> primitive datatypes: 5 types
@@ -35,3 +39,18 @@ first 6 are primitive types; string is a reference type variable
 String myString="Hello";
 here myString is the variable
 Hello is the instance of the variable: object, which is store in HEAP and the location of this will be stored in STACK with the variable name
+
+//arithmetic operations
+//String
+//array
+
+.println -> here ln makes the output to start in the next line in the terminal
+
+2. Flow.java
+
+do-while loop: do condition 1 while condition 2 is true;
+- functions in the class are referred as methods
+- System is a class; println is a method; out is an attribute
+- we have to specify the return type of the value: int, void
+- static methods can be used or called without creating an object of that class
+- static methods can be called inside the other classes using: Classname.method name()
