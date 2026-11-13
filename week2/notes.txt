@@ -54,3 +54,21 @@ do-while loop: do condition 1 while condition 2 is true;
 - we have to specify the return type of the value: int, void
 - static methods can be used or called without creating an object of that class
 - static methods can be called inside the other classes using: Classname.method name()
+
+
+3. second.java
+
+* Classes and Objects
+* Constructor
+    - no argument Constructor
+        -- if we dont give/have Constructor in the class, java will consider the default Constructor, whih is called no argument Constructor
+        -- since we can have many Constructors, if one Constructor is mentioned, java wont create the defaulty Constructor, but we can define another Constructor which can be the default one
+    - parameterized Constructor
+    - copy Constructor
+        -- to copy an object
+
+* getters/accessors
+* setters/mutators
+
+-Constructors dont have return type; they are used to initialize the values for the instance variable
+- a class can have multiple Constructors

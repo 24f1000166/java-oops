@@ -1,0 +1,42 @@
+\collanote-> week3
+\ppa
+
+#inheritanceTest.java
+
+- programs = algorithms + data structures
+- traditionally algorithms come first(structured programming) and data representation comes later
+
+-- but in object oriented design it is reverse
+- first identify the data we want to maintain and manipulate and then identify algorithms to operate on the data
+- debugging is easy and much easier to grasp
+
+-- designing objects
+- behaviour: what methods do we need to operate on objects
+- state: how does the object react when methods are invoked?
+    - state is the information in the instance variable
+    - encapsulation - should not change unless a method operates on it
+- identity: distinguish between different objects of the same class
+    - state may be the same -- two orders may obtain the same item
+- state will typically affect the behaviour, eg: cannot ship an empty order; cannot add an item to an order that has been shipped
+
+-- relationship between classes
+- dependence
+- aggregation -- one class containing another class' objects
+- inheritance --  one object is a specialized versions of another
+
+Employee obj = new Manager("nive", 50000, "ak");
+- during compilation : check whether all the methods given are valid in the employee(parent) class
+- during runtime: the manager objcet is created, and if manager has a mehod override in its class, then that will excute
+-- any class can point to its own class and its own subclasses
+
+- method overriding is only for methds with signature like "public double bonus(float percent) " and not for static emthods
+
+
+--access modifiers
+1. public
+2. default
+3. protected
+4. private
+
+#Overloading.java
+
